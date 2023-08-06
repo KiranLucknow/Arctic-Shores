@@ -20,6 +20,7 @@ Arctic-Shores
 
     #Record at dashboard and Mochawesome report-
     {Path of the Arctic-Shores}>npm run recordDashboardTest
+    execution report can be seen in mochawesome-report/mochawesome.json
 
     #to see the execution at runner-
     {Path of the Arctic-Shores>node_modules/.bin/cypress open
