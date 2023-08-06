@@ -22,7 +22,7 @@ Arctic-Shores
     {Path of the Arctic-Shores}>npm run recordDashboardTest
     execution report can be seen in mochawesome-report/mochawesome.json
 
-    #to see the execution at runner-
+    #to see the test execution at Cypress runner-
     {Path of the Arctic-Shores>node_modules/.bin/cypress open
     #Then navigate to cypress runner
     #in Cypress Runner select the E2E testing
