@@ -1,0 +1,20 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run ",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browse chrome",
+    "recordDashboardTest": "npm run test --  --record --key 89c71a31-ad48-4db4-bef9-b599b158c7ae --record  mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
