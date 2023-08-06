@@ -1,5 +1,4 @@
-# CypressAutomation
-
+**Arctic**
 Software Tester - Technical Challenge
 
 #used- vscode as editor, cypress mocha mochawesome
