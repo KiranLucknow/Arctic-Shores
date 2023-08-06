@@ -2,8 +2,8 @@ Arctic-Shores
 
 #Task 1(Test Case Automation)
 
-#download- vscode as editor,
-#used -cypress mocha mochawesome
+#download- vscode as an editor,
+#used -cypress, JavaScript, mocha, mochawesome
 
 #Command to run -
 
