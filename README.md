@@ -2,7 +2,8 @@ Arctic Shores
 
 Software Tester - Technical Challenge
 
-#used- vscode as editor, cypress mocha mochawesome
+#download- vscode as editor,
+#used -cypress mocha mochawesome
 
 #to run -
 
@@ -20,6 +21,10 @@ Software Tester - Technical Challenge
 #Record at dashboard and Mochawesome report-
 {Path of the CYPRESSAUTOMATION}>npm run recordDashboardTest
 
-#to see the execution at runner- #in Cypress Runner select the E2E project {Path of the CYPRESSAUTOMATION>node_modules/.bin/cypress open
+#to see the execution at runner-
+{Path of the CYPRESSAUTOMATION>node_modules/.bin/cypress open
+#hen navigate to cypress runner
+#in Cypress Runner select the E2E testing
+select the name of the spec, you want to run
 
 #to see the test result at terminal- {Path of the CYPRESSAUTOMATION>node_modules/.bin/cypress run
