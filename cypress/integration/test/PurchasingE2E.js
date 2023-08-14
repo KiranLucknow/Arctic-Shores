@@ -67,21 +67,28 @@ describe('End to End shopping for a valid user', function(){
         //clicking on the finish button to validate the shopping
         paymentPage.getFinishButton().click()
         //to verify if the thankyou message is displaying 
-        if(purchaseCompletionPage.getThankyouButton().contains, 'Thank you for your order!'){
-            //printing "Purchasing Done" in the runner log
-            cy.log('Purchasing Done successfully')
-            
-        }
-        //purchase is not completed as thankyou message is not displaying
-        else cy.log('not done')
-               
-        
-    })
+        purchaseCompletionPage.getThankyouButton().then($el=>{
+                
+            const lengthCount=$el.text().length
+            if (lengthCount>0){
+            cy.log(lengthCount)
+            cy.log('In the loop')
+            const msg=$el.text()
+            if(msg == 'Thank you for yournn order!'){
+            cy.log('Purchasing Done')
+                 }
+    
+             else{
+             cy.log('Purchasing unsuccessful') 
+             }
+            }
+        })
       
         
         
 
 
 
+})
 })
     
