@@ -69,7 +69,7 @@ describe('End to End shopping for a valid user', function(){
         //to verify if the thankyou message is displaying 
         if(purchaseCompletionPage.getThankyouButton().contains, 'Thank you for your order!'){
             //printing "Purchasing Done" in the runner log
-            cy.log('Purchasing Done')
+            cy.log('Purchasing Done successfully')
             
         }
         //purchase is not completed as thankyou message is not displaying
